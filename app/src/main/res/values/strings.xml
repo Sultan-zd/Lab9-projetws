@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">projetws</string>
+    <string name="nom_label">Nom :</string>
+    <string name="prenom_label">Prénom :</string>
+    <string name="ville_label">Ville :</string>
+    <string name="sexe_label">Sexe :</string>
+    <string name="ajouter_btn">Ajouter</string>
+    <string name="hint_nom">Entrez le nom</string>
+    <string name="hint_prenom">Entrez le prénom</string>
+    <string name="welcome_msg">Bienvenue dans la Gestion des Étudiants</string>
+    <string name="btn_goto_add">Ajouter un Étudiant</string>
+    <string name="btn_goto_list">Liste des Étudiants</string>
+    <string name="homme">Homme</string>
+    <string name="femme">Femme</string>
+</resources>
