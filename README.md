@@ -46,7 +46,7 @@ C:\xampp\htdocs\projet\
 ```
 
 ### Base de données :
-Créez une base de données nommée `projet` avec une table `etudiant` :
+Créez une base de données nommée `school1` avec une table `etudiant` :
 ```sql
 CREATE TABLE etudiant (
     id INT PRIMARY KEY AUTO_INCREMENT,
