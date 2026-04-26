@@ -2,7 +2,7 @@
 
 Ce projet est une application Android permettant de gérer une base de données d'étudiants via des Web Services PHP. Il permet l'ajout d'étudiants et la consultation de la liste en temps réel depuis un serveur distant ou local (XAMPP/WAMP).
 
-## 🚀 Fonctionnalités
+## Fonctionnalités
 
 *   **Ajout d'Étudiants** : Formulaire complet (Nom, Prénom, Ville, Sexe) avec validation.
 *   **Liste en Temps Réel** : Affichage des étudiants stockés en base de données dans un `RecyclerView` moderne avec `CardView`.
@@ -10,7 +10,7 @@ Ce projet est une application Android permettant de gérer une base de données 
 *   **Parsing JSON** : Utilisation de **GSON** pour convertir les données entre Java et JSON.
 *   **Gestion des Erreurs** : Sécurité renforcée lors du défilement (scroll) pour éviter les crashs en cas de données incomplètes.
 
-## 🛠️ Technologies Utilisées
+## Technologies Utilisées
 
 *   **Android SDK** (Java)
 *   **Volley** : Gestion des appels API réseau.
@@ -19,7 +19,7 @@ Ce projet est une application Android permettant de gérer une base de données 
 *   **Backend** : PHP 7.4+ / MySQL.
 *   **Serveur Local** : XAMPP ou WAMP.
 
-## 📁 Structure du Projet Android
+## Structure du Projet Android
 
 *   `MainActivity.java` : Menu principal de l'application.
 *   `AddEtudiant.java` : Activité gérant le formulaire d'insertion.
@@ -27,7 +27,7 @@ Ce projet est une application Android permettant de gérer une base de données 
 *   `beans/Etudiant.java` : Modèle de données.
 *   `adapter/EtudiantAdapter.java` : Adaptateur pour l'affichage personnalisé de la liste.
 
-## 🖥️ Configuration du Backend (XAMPP)
+## Configuration du Backend (XAMPP)
 
 Le projet s'attend à trouver les scripts PHP dans le dossier `htdocs/projet/`.
 
@@ -57,7 +57,7 @@ CREATE TABLE etudiant (
 );
 ```
 
-## ⚙️ Installation
+## Installation
 
 1.  Clonez le projet Android dans Android Studio.
 2.  Lancez votre serveur **XAMPP** (Apache & MySQL).
@@ -66,5 +66,5 @@ CREATE TABLE etudiant (
     *   Si vous utilisez un appareil physique, utilisez l'adresse IP de votre PC (ex: `http://192.168.1.5/projet/ws/`).
 4.  Compilez et lancez l'application.
 
-## 📝 Note sur la Sécurité
+## Note sur la Sécurité
 L'application utilise l'attribut `android:usesCleartextTraffic="true"` dans le `AndroidManifest.xml` pour permettre les connexions HTTP non sécurisées vers le serveur local de développement.
